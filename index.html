@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title> IDV 2025 Assignment 4 </title>
+        <link rel = "stylesheet" href = "style.css">
+        <script src = "https://d3js.org/d3.v7.min.js"> </script>
+    </head>
+
+    <body>
+        <header>
+            <h1> Singapore's Population Chloropleth (2024)</h1>
+        </header>
+
+        <div class = "background">
+            <h2 style = "text-align: center; background-color: rgb(230, 230, 230);">
+                Background
+            </h2>
+
+            <h3>
+                The map below illustrates the population count at the subzone level in Singapore using a choropleth map.
+                The darker the colour, the higher the population count. Subzones with zero population counts are shaded in grey.
+                <br>
+                <br>
+                Hover over each subzone for the name of the subzone, corresponding planning area and region and the population count.
+            </h3>
+        </div>
+
+        <svg></svg>
+
+        <div id = "tooltip" class = "tooltip"></div>
+
+        <script src = "script.js"> </script>
+
+        <div>
+            <h3> Datasets used for above visualization retrieved from: 
+                <a href = "https://www.singstat.gov.sg/publications/population/population-trends"> Resident Population 2024</a> and
+                <a href = "https://data.gov.sg/datasets?page=1&query=subzone&resultId=d_8594ae9ff96d0c708bc2af633048edfb"> Master Plan 2019 Subzone Boundary</a>.
+                
+            </h3>
+        </div>
+
+        <footer> 
+            <h4> 
+                Data retrieved from 
+                <a href = "https://data.gov.sg/"> data.gov.sg </a> and
+                <a href = "https://www.singstat.gov.sg/"> singstat.gov.sg </a>.  
+            </h4>
+
+            <h4> 
+                02.526 IDV - Assignment 4 | By kkjy99
+            </h4>
+        </footer>
+    </body>
+
+</html>
+<html>
