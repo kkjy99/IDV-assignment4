@@ -1,0 +1,46 @@
+/* Heading 1 Style */
+h1 {
+    font-family: Cambria;
+    text-align: center;
+    background-color: rgb(174, 187, 228);
+    padding: 10px;
+}
+/* Heading 2 Style */
+h2 {
+    font-family: Cambria;
+    background-color: rgb(217, 225, 250);
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+/* Heading 3 Style */
+h3 {
+    font-family: Cambria;
+    text-align: justify;
+}
+/* Heading 4 Style */
+h4 {
+    font-family: Cambria;
+    text-align: center;
+}
+header {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(174, 187, 228);
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(174, 187, 228);
+}
+.tooltip {
+    position: absolute;
+    padding: 8px 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    border-radius: 6px;
+    font-size: 16px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
